@@ -1,0 +1,11 @@
+# python_version>=3.10
+llama-index==0.9.21
+langchain==0.2.24
+transformers==4.40.0
+sentence_transformers==2.2.2
+chromadb==0.3.30
+faiss-cpu==1.7.4  # if you prefer FAISS; adjust for your platform
+huggingface-hub==0.16.4
+langgraph==0.1.0  # if unavailable, skip for MVP and add later
+pdfplumber==0.9.0
+tqdm==4.66.1
